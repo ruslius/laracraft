@@ -29,7 +29,10 @@
 		"laravel": {
 			"providers": [
 				"Ruslius\\Helper\\HelperServiceProvider"
-			]
+			],
+			"aliases": {
+				"Helper": "Ruslius\\Helper\\HelperFacade"
+			}
 		}
 	},
 	"scripts": {

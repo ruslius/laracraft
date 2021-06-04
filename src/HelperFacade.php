@@ -8,6 +8,6 @@ class HelperFacade extends Facade //Alias Helper
 {
 	public static function getFacadeAccessor()
 	{
-		return 'HelperFacade'; //Вернет строку namspase+classname
+		return 'HelperClient'; //Вернет строку namspase+classname
 	}
 }
