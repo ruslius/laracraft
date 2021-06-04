@@ -28,7 +28,7 @@
 	"extra": {
 		"laravel": {
 			"providers": [
-				"\\Ruslius\\Helper\\HelperServiceProvider"
+				"Ruslius\\Helper\\HelperServiceProvider"
 			]
 		}
 	},
