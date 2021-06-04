@@ -4,7 +4,12 @@ namespace Ruslius\Helper;
 
 class HelperClient
 {
+	public static function dump($arr){
+		echo("<pre>");
+			print_r($arr);
+		echo("</pre>");
+	}
 	public function getInfo(){
-		return 'Есть';
+		return config()->all();
 	}
 }
