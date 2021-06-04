@@ -1,11 +1,11 @@
 {
-	"name": "ruslan/larahelp",
+	"name": "rusliu/larahelp",
 	"description": "Laravel",
 	"type": "library",
 	"license": "MIT",
 	"authors": [
 		{
-			"name": "Ruslan_P",
+			"name": "Ruslan P",
 			"email": "49198@bk.ru"
 		}
 	],

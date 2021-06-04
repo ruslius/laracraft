@@ -1,6 +1,6 @@
 <?php
 
-namespace Helper;
+namespace Ruslius\Helper;
 
 use Illuminate\Support\Facades\Facade;
 
