@@ -9,7 +9,7 @@ class HelperClient
 			print_r($arr);
 		echo("</pre>");
 	}
-	public function getInfo(){
+	public static function getInfo(){
 		return config()->all();
 	}
 }
