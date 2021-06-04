@@ -1,0 +1,38 @@
+{
+	"name": "ruslan/larahelp",
+	"description": "Laravel",
+	"type": "library",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Ruslan P",
+			"email": "49198@bk.ru"
+		}
+	],
+	"require": {
+      "php": ">=7"
+    },
+	"require-dev": {
+      "orchestra/testbench": "^6.10.0"
+    },
+	"autoload": {
+		"psr-4": {
+			"Helper\\": "./src"
+		}
+	},
+	"autoload-dev": {
+		"psr-4": {
+			"Helper\\Tests\\": "./tests"
+		}
+	},
+	"extra": {
+		"laravel": {
+			"providers": [
+				"\\Ruslius\\Helper\\HelperServiceProvider"
+			]
+		}
+	},
+	"scripts": {
+		"test": "./vendor/bin/phpunit"
+	}
+}
