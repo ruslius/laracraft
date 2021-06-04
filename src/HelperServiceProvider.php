@@ -17,7 +17,7 @@ class HelperServiceProvider extends ServiceProvider
 	{
 		$this->publishes(
 		  [
-		  __DIR__ . '/../config/' . $this->configName . '/.php' => config_path($this->configName . '.php'),
+		  __DIR__ . '/../configs/' . $this->configName . '/.php' => config_path($this->configName . '.php'),
 		  ]
 		);
 	}
@@ -29,7 +29,7 @@ class HelperServiceProvider extends ServiceProvider
 	 */
 	public function register()
 	{
-		$this->mergeConfigFrom(__DIR__ . '/../config/' . $this->configName . '.php', $this->configName);
+		$this->mergeConfigFrom(__DIR__ . '/../configs/' . $this->configName . '.php', $this->configName);
 
 		$this->app->bind(HelperClient::class);
 	}
