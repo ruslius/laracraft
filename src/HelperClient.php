@@ -19,6 +19,7 @@ class HelperClient
 		echo("</pre>");
 	}
 	public static function getInfo(){
+		Log::info("Был выполнен getInfo");
 		return config()->all();
 	}
 	public static function ifConstruct(){
