@@ -29,8 +29,7 @@
 	"extra": {
 		"laravel": {
 			"providers": [
-				"Ruslius\\Helper\\HelperServiceProvider",
-				"Barryvdh\\LaravelIdeHelper\\IdeHelperServiceProvider"
+				"Ruslius\\Helper\\HelperServiceProvider"
 			],
 			"aliases": {
 				"Helper": "Ruslius\\Helper\\HelperFacade"

@@ -32,7 +32,7 @@ class HelperServiceProvider extends ServiceProvider
 		$this->mergeConfigFrom(__DIR__ . '/../configs/' . $this->configName . '.php', $this->configName);
 
 		$this->app->bind('helperclient', function (){
-			return new HelperClient();
+			return HelperClient::class;
 		});
 		//$this->app->bind(HelperClient::class);
 	}
