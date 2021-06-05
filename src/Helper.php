@@ -4,7 +4,7 @@ namespace Ruslius\Helper;
 
 use Illuminate\Support\Facades\Log;
 
-class HelperClient
+class Helper
 {
 	protected $construct;
 

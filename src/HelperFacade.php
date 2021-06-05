@@ -8,6 +8,6 @@ class HelperFacade extends Facade //Alias Helper
 {
 	public static function getFacadeAccessor()
 	{
-		return 'helperclient'; //
+		return 'HelperContainer'; //
 	}
 }
