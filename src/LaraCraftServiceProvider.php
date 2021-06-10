@@ -1,10 +1,10 @@
 <?php
 
-namespace Ruslius\Helper;
+namespace Ruslius\LaraCraft;
 
 use Illuminate\Support\ServiceProvider;
 
-class HelperServiceProvider extends ServiceProvider
+class LaraCraftServiceProvider extends ServiceProvider
 {
 	protected $configName = "helper";
 
@@ -31,6 +31,6 @@ class HelperServiceProvider extends ServiceProvider
 	{
 		$this->mergeConfigFrom(__DIR__ . '/../configs/' . $this->configName . '.php', $this->configName);
 
-		$this->app->bind('HelperContainer', Helper::class);
+		$this->app->bind('HelperContainer', LaraCraft::class);
 	}
 }

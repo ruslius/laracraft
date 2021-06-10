@@ -1,10 +1,10 @@
 <?php
 
-namespace Ruslius\Helper;
+namespace Ruslius\LaraCraft;
 
 use Illuminate\Support\Facades\Log;
 
-class Helper
+class LaraCraft
 {
 	protected $construct;
 

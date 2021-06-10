@@ -1,7 +1,6 @@
 <?php
 
-
-namespace Ruslius\Helper\Console\Commands;
+namespace Ruslius\LaraCraft\Console\Commands;
 
 
 class InstallCommand

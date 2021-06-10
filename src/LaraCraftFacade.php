@@ -1,10 +1,10 @@
 <?php
 
-namespace Ruslius\Helper;
+namespace Ruslius\LaraCraft;
 
 use Illuminate\Support\Facades\Facade;
 
-class HelperFacade extends Facade //Alias Helper
+class LaraCraftFacade extends Facade //Alias LaraCraft
 {
 	public static function getFacadeAccessor()
 	{
